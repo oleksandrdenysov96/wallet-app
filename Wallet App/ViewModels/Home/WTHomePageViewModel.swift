@@ -19,7 +19,7 @@ class WTHomePageViewModel: NSObject {
 
     public weak var delegate: WTHomePageViewModelDelegate?
 
-    private var userTransactions: [Transaction]? {
+    public private(set) var userTransactions: [Transaction]? {
         didSet {
             guard let allViewModels = userTransactions else {
                 print("Failed to receive transactions")
@@ -29,12 +29,8 @@ class WTHomePageViewModel: NSObject {
                 return
             }
             LocalState.balance = lastTransaction.balance
-            balanceCellLabel = String(lastTransaction.balance)
         }
     }
-
-    public var balanceCellLabel: String?
-
 
     // MARK: API CALLS
 
@@ -47,10 +43,8 @@ class WTHomePageViewModel: NSObject {
             switch result {
             case .success(let viewModel):
                 self.userTransactions = viewModel.info.reversed()
-
-                DispatchQueue.main.async {
-                    self.delegate?.didLoadTransactions()
-                }
+                self.delegate?.didLoadTransactions()
+                
             case .failure(let error):
                 if statusCode == 401 {
                     WTService.shared.refreshSession { isRefreshed in
@@ -73,6 +67,7 @@ class WTHomePageViewModel: NSObject {
     }
 
     private func fetchAddedTransaction(_ transaction: Transaction) {
+        LocalState.balance = transaction.balance
         self.userTransactions?.insert(transaction, at: 0)
     }
 
@@ -96,6 +91,10 @@ class WTHomePageViewModel: NSObject {
 
             switch result {
             case .success(_):
+                guard let transactions = userTransactions else { return }
+                LocalState.balance = transactions[index.row].type == TransactionType.income.rawValue ?
+                LocalState.balance - transactions[index.row].sum : LocalState.balance + transactions[index.row].sum
+
                 self.userTransactions?.remove(at: index.row)
                 self.delegate?.didDeleteTransaction(at: index)
 
@@ -146,10 +145,7 @@ extension WTHomePageViewModel: UICollectionViewDelegate, UICollectionViewDataSou
             ) as? WTBalanceCollectionViewCell else {
                 fatalError("Unable to setup balance cell")
             }
-            
-            if let label = self.balanceCellLabel {
-                cell.configure(with: label)
-            }
+            cell.configure(with: String(LocalState.balance))
             return cell
         }
         else {
@@ -238,7 +234,6 @@ extension WTHomePageViewModel {
 extension WTHomePageViewModel: WTTransactionViewViewModelDelegate {
     func didPostTransaction(_ transaction: Transaction) {
         fetchAddedTransaction(transaction)
-//        guard let transactions = userTransactions?.reversed() else {return}
         let indexForInsert = IndexPath(row: 0, section: 1)
         delegate?.didLoadAdditionalTransactions(for: [indexForInsert])
     }

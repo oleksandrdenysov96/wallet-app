@@ -19,6 +19,10 @@ class WTTransactionView: UIView {
         set {}
     }
 
+    private lazy var tapGesture = UITapGestureRecognizer(
+        target: self, action: #selector(handleTap)
+    )
+
     private let viewTitle: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
@@ -185,9 +189,6 @@ class WTTransactionView: UIView {
             self, for: [sumTextField, commentTextField]
         )
 
-        let tapGesture = UITapGestureRecognizer(
-            target: self, action: #selector(handleTap)
-        )
         addGestureRecognizer(tapGesture)
         addButtonsTargets(#selector(didTapPlusButton), for: plusButton)
         addButtonsTargets(#selector(didTapDateButton), for: datePickerButton)
@@ -322,6 +323,7 @@ extension WTTransactionView {
                 self.datePicker.alpha = 0
             }) { _ in
                 self.datePicker.isHidden = true
+                self.addGestureRecognizer(self.tapGesture)
             }
         }
         datePicker.changeClosure = { [weak self] dateValue in
@@ -339,6 +341,7 @@ extension WTTransactionView {
 
     @objc
     private func didTapDateButton()  {
+        removeGestureRecognizer(tapGesture)
         bringSubviewToFront(datePicker)
         UIView.animate(withDuration: 0.3) { [weak self] in
             self?.datePicker.isHidden = false

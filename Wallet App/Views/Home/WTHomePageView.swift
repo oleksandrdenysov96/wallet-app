@@ -117,39 +117,74 @@ extension WTHomePageView: WTHomePageViewModelDelegate {
     func failedToLoadTransactions() {
         self.loader.stopLoader()
 
-        UIView.animate(withDuration: 0.2) {
-            self.noResultsView.isHidden = false
-            self.noResultsView.alpha = 1
-            self.floatingButton.isHidden = false
-            self.floatingButton.alpha = 1
+        UIView.animate(withDuration: 0.2) { [weak self] in
+            self?.noResultsView.isHidden = false
+            self?.noResultsView.alpha = 1
+            self?.floatingButton.isHidden = false
+            self?.floatingButton.alpha = 1
         }
     }
     
     func didLoadTransactions() {
-        let layout = UICollectionViewCompositionalLayout { [weak self] sectionIndex, _ in
-            sectionIndex == 0 ?
-            self?.viewModel.createBannerLayout() :
-            self?.viewModel.createTransactionLayout()
+        
+        guard let isEmptyModels = viewModel.userTransactions?.isEmpty else {
+            SwiftyBeaverConfig.shared.logError("Wrong handling empty models state")
+            return
         }
-        collectionView.collectionViewLayout = layout
+        
+        DispatchQueue.main.async { [weak self] in
+            guard let self = self else { return }
 
-        UIView.animate(withDuration: 0.2) { [weak self] in
-            self?.loader.stopLoader()
-            self?.collectionView.isHidden = false
-            self?.collectionView.alpha = 1
-            self?.floatingButton.isHidden = false
-            self?.floatingButton.alpha = 1
+            if isEmptyModels {
+                self.failedToLoadTransactions()
+            } else {
+                collectionView.reloadData()
+                let layout = UICollectionViewCompositionalLayout { sectionIndex, _ in
+                    sectionIndex == 0 ?
+                    self.viewModel.createBannerLayout() :
+                    self.viewModel.createTransactionLayout()
+                }
+                self.collectionView.collectionViewLayout = layout
+
+                UIView.animate(withDuration: 0.2) {
+                    self.loader.stopLoader()
+                    self.collectionView.isHidden = false
+                    self.collectionView.alpha = 1
+                    self.floatingButton.isHidden = false
+                    self.floatingButton.alpha = 1
+                }
+            }
         }
-        collectionView.reloadData()
     }
 
     func didLoadAdditionalTransactions(for index: [IndexPath]) {
         DispatchQueue.main.async { [weak self] in
-            self?.delegate?.shouldDismissTransactionView()
-            self?.collectionView.performBatchUpdates {
-                self?.collectionView.insertItems(at: index)
+            if self?.collectionView.isHidden == true {
+                self?.collectionView.reloadData()
+                let layout = UICollectionViewCompositionalLayout { sectionIndex, _ in
+                    sectionIndex == 0 ?
+                    self?.viewModel.createBannerLayout() :
+                    self?.viewModel.createTransactionLayout()
+                }
+                self?.collectionView.collectionViewLayout = layout
+                self?.initiateCollectionView()
+                self?.delegate?.shouldDismissTransactionView()
+            }
+            else {
+                self?.collectionView.reloadData()
+                self?.delegate?.shouldDismissTransactionView()
+//                self?.collectionView.performBatchUpdates {
+//                    self?.collectionView.insertItems(at: index)
+//                }
             }
         }
+    }
+
+    private func initiateCollectionView() {
+        self.collectionView.isHidden = false
+        self.collectionView.alpha = 1
+        self.noResultsView.isHidden = true
+        self.noResultsView.alpha = 0
     }
 
     func shouldDismissPresentedModal() {
@@ -158,10 +193,27 @@ extension WTHomePageView: WTHomePageViewModelDelegate {
 
     func didDeleteTransaction(at index: IndexPath) {
         DispatchQueue.main.async { [weak self] in
-            self?.collectionView.performBatchUpdates({
-                self?.collectionView.deleteItems(at: [index])
-            })
+            if self?.collectionView.numberOfItems(inSection: 1) == 1 {
+                self?.collectionView.performBatchUpdates({
+                    self?.collectionView.deleteItems(at: [index])
+                })
+                self?.hideCollectionViewAndPresentNoResults()
+            } else {
+                self?.collectionView.performBatchUpdates({
+                    self?.collectionView.deleteItems(at: [index])
+                })
+            }
         }
     }
+    
 
+    private func hideCollectionViewAndPresentNoResults() {
+        UIView.animate(withDuration: 0.3, animations:  { [weak self] in
+            self?.collectionView.alpha = 0
+            self?.noResultsView.isHidden = false
+            self?.noResultsView.alpha = 1
+        }) { [weak self] _ in
+            self?.collectionView.isHidden = true
+        }
+    }
 }

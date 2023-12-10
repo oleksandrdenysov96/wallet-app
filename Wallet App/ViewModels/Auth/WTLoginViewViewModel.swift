@@ -20,26 +20,11 @@ final class WTLoginViewViewModel {
     
     public weak var delegate: WTLoginViewViewModelDelegate?
         
-    private var loggingResponseModel: WTLoginResponse? 
-    
-    private var userEmail: String? {
-        didSet {
-//            UserDefaults.standard.set(userEmail, forKey: "email")
-        }
-    }
-    
-    private var userPassword: String? {
-        didSet {
-//            UserDefaults.standard.set(userPassword, forKey: "password")
-        }
-    }
+    private var loggingResponseModel: WTLoginResponse?
 
     private func executeLogInPostRequest(email: String, password: String, 
                                          completion: @escaping (Result<WTLoginResponse, Error>, Int?) -> Void) {
 
-        self.userEmail = email
-        self.userPassword = password
-        
         let jsonBody: [String: Any] = [
             "email": email,
             "password": password
@@ -72,7 +57,6 @@ extension WTLoginViewViewModel: WTLoginViewDelegate {
         self.executeLogInPostRequest(email: email, password: password) { [weak self] result, _ in
             switch result {
             case .success(let model):
-//                self?.loggingResponseModel = model
                 self?.delegate?.didPerformLogin(receivedResponse: model)
             case .failure(_):
                 self?.delegate?.enteredWrongCreds(errTitle: "Log in failed",

@@ -41,10 +41,6 @@ final class WTTransactionViewViewModel {
 
     public func postTransactionWith(type: String, category: String, date: String, sum: Int, comment: String?) {
         let request = WTRequest(endpoint: .transactions, httpMethod: .post)
-        guard let balance = LocalState.balance else {
-            print("Current balance isn't defined in local state")
-            return
-        }
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "dd/MM/yy"
 
@@ -61,7 +57,8 @@ final class WTTransactionViewViewModel {
             "category": category,
             "comment": comment != nil ? comment! : "–",
             "sum": sum,
-            "balance": balance + sum
+            "balance": type == TransactionType.income.rawValue ?
+            LocalState.balance + sum : LocalState.balance - sum
         ]
         WTService.shared.executeRequest(request,
                                         body: WTService.shared.requestBody(body: body),

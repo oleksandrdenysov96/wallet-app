@@ -19,7 +19,7 @@ public class LocalState {
         return loginData?.data.user.name
     }
 
-    public static var balance: Int?
+    public static var balance: Int = 0
 
     public static var sessionId: String = {
         guard let refreshData = refreshData else {
@@ -55,7 +55,6 @@ public class LocalState {
         get {
             if let data = UserDefaults.standard.data(forKey: Keys.logiInData.rawValue),
                let decodedModel = try? JSONDecoder().decode(WTLoginResponse.self, from: data) {
-//                _userName = decodedModel.data.user.name
                 return decodedModel
             }
             return nil

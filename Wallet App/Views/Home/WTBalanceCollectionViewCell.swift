@@ -41,7 +41,7 @@ class WTBalanceCollectionViewCell: UICollectionViewCell {
             red: 0, green: 0, blue: 0, alpha: 1
         )
         label.font = UIFont(name: "Poppins-Regular", size: 30) ?? UIFont.systemFont(ofSize: 43, weight: .bold)
-        label.text = "₴ 24 000.00"
+        label.text = "₴ 0"
         return label
     }()
 
