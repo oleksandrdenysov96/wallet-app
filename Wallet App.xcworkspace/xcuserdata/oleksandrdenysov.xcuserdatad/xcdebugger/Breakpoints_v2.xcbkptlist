@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "84429756-C86E-4693-8A15-217358304F31"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5C540971-E0A8-469E-87B9-FA259AA1948A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wallet App/Views/Transaction/WTTransactionView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "234"
+            endingLineNumber = "234"
+            landmarkName = "didTapAdd()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5C540971-E0A8-469E-87B9-FA259AA1948A - 5542e162b7345571"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wallet_App.WTTransactionView.didTapAdd() -&gt; ()"
+                  moduleName = "Wallet App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oleksandrdenysov/Documents/Learning/Wallet%20App/Wallet%20App/Views/Transaction/WTTransactionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "234"
+                  endingLineNumber = "234"
+                  offsetFromSymbolStart = "1048">
+               </Location>
+               <Location
+                  uuid = "5C540971-E0A8-469E-87B9-FA259AA1948A - 5542e162b73452b3"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wallet_App.WTTransactionView.didTapAdd() -&gt; ()"
+                  moduleName = "Wallet App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oleksandrdenysov/Documents/Learning/Wallet%20App/Wallet%20App/Views/Transaction/WTTransactionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "232"
+                  endingLineNumber = "232"
+                  offsetFromSymbolStart = "928">
+               </Location>
+               <Location
+                  uuid = "5C540971-E0A8-469E-87B9-FA259AA1948A - 5542e162b73452b3"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wallet_App.WTTransactionView.didTapAdd() -&gt; ()"
+                  moduleName = "Wallet App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oleksandrdenysov/Documents/Learning/Wallet%20App/Wallet%20App/Views/Transaction/WTTransactionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "232"
+                  endingLineNumber = "232"
+                  offsetFromSymbolStart = "964">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "65D029A9-C16A-43C7-A328-3C153D109E69"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wallet App/ViewModels/Transaction/WTTransactionViewViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "postTransactionWith(type:category:date:sum:comment:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "65D029A9-C16A-43C7-A328-3C153D109E69 - 68ebc1338fbe731f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wallet_App.WTTransactionViewViewModel.postTransactionWith(type: Swift.String, category: Swift.String, date: Swift.String, sum: Swift.Int, comment: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "Wallet App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oleksandrdenysov/Documents/Learning/Wallet%20App/Wallet%20App/ViewModels/Transaction/WTTransactionViewViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "1060">
+               </Location>
+               <Location
+                  uuid = "65D029A9-C16A-43C7-A328-3C153D109E69 - 68ebc1338fbe733e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wallet_App.WTTransactionViewViewModel.postTransactionWith(type: Swift.String, category: Swift.String, date: Swift.String, sum: Swift.Int, comment: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "Wallet App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oleksandrdenysov/Documents/Learning/Wallet%20App/Wallet%20App/ViewModels/Transaction/WTTransactionViewViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "852">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3B6D94E5-2E7F-447C-9E3E-99C857CC6F36"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wallet App/ViewModels/Transaction/WTTransactionViewViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "postTransactionWith(type:category:date:sum:comment:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3B6D94E5-2E7F-447C-9E3E-99C857CC6F36 - 68ebc1338fbe712d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wallet_App.WTTransactionViewViewModel.postTransactionWith(type: Swift.String, category: Swift.String, date: Swift.String, sum: Swift.Int, comment: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "Wallet App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oleksandrdenysov/Documents/Learning/Wallet%20App/Wallet%20App/ViewModels/Transaction/WTTransactionViewViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "2896">
+               </Location>
+               <Location
+                  uuid = "3B6D94E5-2E7F-447C-9E3E-99C857CC6F36 - 68ebc1338fbe712d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wallet_App.WTTransactionViewViewModel.postTransactionWith(type: Swift.String, category: Swift.String, date: Swift.String, sum: Swift.Int, comment: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "Wallet App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oleksandrdenysov/Documents/Learning/Wallet%20App/Wallet%20App/ViewModels/Transaction/WTTransactionViewViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "2684">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D9443516-76F0-469B-A370-C7A8BD03D0C8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wallet App/Views/Transaction/WTTransactionView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "239"
+            endingLineNumber = "239"
+            landmarkName = "didTapAdd()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D9443516-76F0-469B-A370-C7A8BD03D0C8 - 5542e162b73455ce"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wallet_App.WTTransactionView.didTapAdd() -&gt; ()"
+                  moduleName = "Wallet App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oleksandrdenysov/Documents/Learning/Wallet%20App/Wallet%20App/Views/Transaction/WTTransactionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "237"
+                  endingLineNumber = "237"
+                  offsetFromSymbolStart = "1048">
+               </Location>
+               <Location
+                  uuid = "D9443516-76F0-469B-A370-C7A8BD03D0C8 - 5542e162b73455ce"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wallet_App.WTTransactionView.didTapAdd() -&gt; ()"
+                  moduleName = "Wallet App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oleksandrdenysov/Documents/Learning/Wallet%20App/Wallet%20App/Views/Transaction/WTTransactionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "237"
+                  endingLineNumber = "237"
+                  offsetFromSymbolStart = "1084">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FC162EC6-74CC-4294-BD22-37D91375F6BE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wallet App/Views/Transaction/WTTransactionView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "241"
+            endingLineNumber = "241"
+            landmarkName = "didTapAdd()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "86FAEBCB-7CFF-472F-80F9-4094484DAE5A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wallet App/ViewModels/Transaction/WTTransactionViewViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "postTransactionWith(type:category:date:sum:comment:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "86FAEBCB-7CFF-472F-80F9-4094484DAE5A - 68ebc1338fbe7436"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wallet_App.WTTransactionViewViewModel.postTransactionWith(type: Swift.String, category: Swift.String, date: Swift.String, sum: Swift.Int, comment: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "Wallet App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oleksandrdenysov/Documents/Learning/Wallet%20App/Wallet%20App/ViewModels/Transaction/WTTransactionViewViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "540">
+               </Location>
+               <Location
+                  uuid = "86FAEBCB-7CFF-472F-80F9-4094484DAE5A - 68ebc1338fbe7436"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wallet_App.WTTransactionViewViewModel.postTransactionWith(type: Swift.String, category: Swift.String, date: Swift.String, sum: Swift.Int, comment: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "Wallet App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oleksandrdenysov/Documents/Learning/Wallet%20App/Wallet%20App/ViewModels/Transaction/WTTransactionViewViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "536">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "676A92B6-5BDF-4A51-95AD-04C0815FEFBA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wallet App/ViewModels/Transaction/WTTransactionViewViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "postTransactionWith(type:category:date:sum:comment:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "676A92B6-5BDF-4A51-95AD-04C0815FEFBA - 50053e1691814ebb"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Wallet_App.Transaction, Swift.Error&gt;, Swift.Optional&lt;Swift.Int&gt;) -&gt; () in Wallet_App.WTTransactionViewViewModel.postTransactionWith(type: Swift.String, category: Swift.String, date: Swift.String, sum: Swift.Int, comment: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "Wallet App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oleksandrdenysov/Documents/Learning/Wallet%20App/Wallet%20App/ViewModels/Transaction/WTTransactionViewViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "1520">
+               </Location>
+               <Location
+                  uuid = "676A92B6-5BDF-4A51-95AD-04C0815FEFBA - e362dfafa01cd236"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Wallet_App.WTGetAllTransactions, Swift.Error&gt;, Swift.Optional&lt;Swift.Int&gt;) -&gt; () in Wallet_App.WTTransactionViewViewModel.postTransactionWith(type: Swift.String, category: Swift.String, date: Swift.String, sum: Swift.Int, comment: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "Wallet App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oleksandrdenysov/Documents/Learning/Wallet%20App/Wallet%20App/ViewModels/Transaction/WTTransactionViewViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "1592">
+               </Location>
+               <Location
+                  uuid = "676A92B6-5BDF-4A51-95AD-04C0815FEFBA - 168f0e5ff9c7a7f7"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in closure #1 (Swift.Result&lt;Wallet_App.WTGetAllTransactions, Swift.Error&gt;, Swift.Optional&lt;Swift.Int&gt;) -&gt; () in Wallet_App.WTTransactionViewViewModel.postTransactionWith(type: Swift.String, category: Swift.String, date: Swift.String, sum: Swift.Int, comment: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "Wallet App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oleksandrdenysov/Documents/Learning/Wallet%20App/Wallet%20App/ViewModels/Transaction/WTTransactionViewViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "180">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1196C3BB-EEBD-41F1-9E62-214DBD1C6454"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wallet App/ViewModels/Transaction/WTTransactionViewViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "postTransactionWith(type:category:date:sum:comment:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1196C3BB-EEBD-41F1-9E62-214DBD1C6454 - 50053e1691815137"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Wallet_App.Transaction, Swift.Error&gt;, Swift.Optional&lt;Swift.Int&gt;) -&gt; () in Wallet_App.WTTransactionViewViewModel.postTransactionWith(type: Swift.String, category: Swift.String, date: Swift.String, sum: Swift.Int, comment: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "Wallet App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oleksandrdenysov/Documents/Learning/Wallet%20App/Wallet%20App/ViewModels/Transaction/WTTransactionViewViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "1068">
+               </Location>
+               <Location
+                  uuid = "1196C3BB-EEBD-41F1-9E62-214DBD1C6454 - e362dfafa01ccdba"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Wallet_App.WTGetAllTransactions, Swift.Error&gt;, Swift.Optional&lt;Swift.Int&gt;) -&gt; () in Wallet_App.WTTransactionViewViewModel.postTransactionWith(type: Swift.String, category: Swift.String, date: Swift.String, sum: Swift.Int, comment: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "Wallet App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oleksandrdenysov/Documents/Learning/Wallet%20App/Wallet%20App/ViewModels/Transaction/WTTransactionViewViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "480">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AF2C7C33-6A3F-490B-843F-9339DF4868AD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wallet App/ViewModels/Home/WTHomePageViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "fetchAddedTransaction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE6660E4-986A-4914-88A5-9FC7DE66397D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wallet App/ViewModels/Home/WTHomePageViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "241"
+            endingLineNumber = "241"
+            landmarkName = "didPostTransaction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EAF4E2AC-E0A7-4E63-8354-0847462B3AE0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wallet App/ViewModels/Home/WTHomePageViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "242"
+            endingLineNumber = "242"
+            landmarkName = "didPostTransaction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E4A43489-B68C-42AD-B0AC-8F1C1FB79A19"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wallet App/ViewModels/Home/WTTransactionInfoCellViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "init(transaction:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "10AF40E1-8534-4645-85D8-565A6540BEE5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wallet App/ViewModels/Home/WTHomePageViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C03CDC78-0143-4E66-8F3B-A2E9AC4E0FF8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wallet App/ViewModels/Home/WTHomePageViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "156"
+            endingLineNumber = "156"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

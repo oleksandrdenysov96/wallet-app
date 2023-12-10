@@ -7,25 +7,117 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6911FD042B25382100A6E840 /* SwiftyBeaverConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6911FD032B25382100A6E840 /* SwiftyBeaverConfig.swift */; };
+		691F008E2B066D62004D2049 /* UIVIewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691F008D2B066D62004D2049 /* UIVIewExtension.swift */; };
+		691FFC002B064B3A004D2049 /* WTButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691FFBFF2B064B3A004D2049 /* WTButton.swift */; };
+		691FFC022B0653E6004D2049 /* WTLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691FFC012B0653E6004D2049 /* WTLogoView.swift */; };
 		69592DC22B0568C7001012B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69592DC12B0568C7001012B8 /* AppDelegate.swift */; };
 		69592DC42B0568C7001012B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69592DC32B0568C7001012B8 /* SceneDelegate.swift */; };
-		69592DC62B0568C7001012B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69592DC52B0568C7001012B8 /* ViewController.swift */; };
-		69592DC92B0568C7001012B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69592DC72B0568C7001012B8 /* Main.storyboard */; };
 		69592DCC2B0568C7001012B8 /* Wallet_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 69592DCA2B0568C7001012B8 /* Wallet_App.xcdatamodeld */; };
 		69592DCE2B0568C8001012B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69592DCD2B0568C8001012B8 /* Assets.xcassets */; };
 		69592DD12B0568C8001012B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69592DCF2B0568C8001012B8 /* LaunchScreen.storyboard */; };
+		69592DD92B056A13001012B8 /* WTLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69592DD82B056A13001012B8 /* WTLoginViewController.swift */; };
+		69592DE22B056B21001012B8 /* WTLoginUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69592DE12B056B21001012B8 /* WTLoginUIView.swift */; };
+		69611AB72B121FFF00F24E60 /* WTTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69611AB62B121FFF00F24E60 /* WTTextField.swift */; };
+		69611AB92B122FDA00F24E60 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69611AB82B122FDA00F24E60 /* User.swift */; };
+		69611ABB2B12307700F24E60 /* WTRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69611ABA2B12307700F24E60 /* WTRequest.swift */; };
+		69611ABD2B12326200F24E60 /* WTEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69611ABC2B12326200F24E60 /* WTEndpoint.swift */; };
+		69611ABF2B1236CE00F24E60 /* WTLoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69611ABE2B1236CE00F24E60 /* WTLoginViewViewModel.swift */; };
+		69611AC12B123CCB00F24E60 /* WTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69611AC02B123CCB00F24E60 /* WTService.swift */; };
+		69611AC32B1243AF00F24E60 /* WTLoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69611AC22B1243AF00F24E60 /* WTLoginResponse.swift */; };
+		69611AC62B1244AB00F24E60 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69611AC52B1244AB00F24E60 /* UserData.swift */; };
+		69611AC82B12C4A000F24E60 /* WTTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69611AC72B12C4A000F24E60 /* WTTabBarController.swift */; };
+		69611ACB2B13529B00F24E60 /* LocalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69611ACA2B13529B00F24E60 /* LocalState.swift */; };
+		69611ACE2B13541A00F24E60 /* RootViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69611ACD2B13541A00F24E60 /* RootViewControllerFactory.swift */; };
+		69611AD02B138EEC00F24E60 /* WTRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69611ACF2B138EEC00F24E60 /* WTRegisterViewController.swift */; };
+		69611AD22B138F2800F24E60 /* WTRegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69611AD12B138F2800F24E60 /* WTRegisterView.swift */; };
+		69611AD52B13AD6A00F24E60 /* RegisterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69611AD42B13AD6A00F24E60 /* RegisterResponse.swift */; };
+		69611AD72B13B36C00F24E60 /* WTRegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69611AD62B13B36C00F24E60 /* WTRegisterViewViewModel.swift */; };
+		69611ADB2B13FCCD00F24E60 /* WTHomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69611ADA2B13FCCD00F24E60 /* WTHomePageViewController.swift */; };
+		69611ADD2B13FD0500F24E60 /* WTStatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69611ADC2B13FD0500F24E60 /* WTStatisticsViewController.swift */; };
+		69611ADF2B13FD2F00F24E60 /* WTExchangeRateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69611ADE2B13FD2F00F24E60 /* WTExchangeRateViewController.swift */; };
+		6965BE052B1E4E0B00BFA7D6 /* WTHomePageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6965BE042B1E4E0B00BFA7D6 /* WTHomePageViewModel.swift */; };
+		6965BE082B1E4EFC00BFA7D6 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6965BE072B1E4EFC00BFA7D6 /* Transaction.swift */; };
+		6965BE0A2B1E538E00BFA7D6 /* LoggedUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6965BE092B1E538E00BFA7D6 /* LoggedUser.swift */; };
+		6965BE0D2B1E604600BFA7D6 /* WTGetAllTransactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6965BE0C2B1E604600BFA7D6 /* WTGetAllTransactions.swift */; };
+		6965BE0F2B1E711100BFA7D6 /* WTTransactionInfoCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6965BE0E2B1E711100BFA7D6 /* WTTransactionInfoCellViewModel.swift */; };
+		6965BE112B1E843600BFA7D6 /* WTTransactionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6965BE102B1E843600BFA7D6 /* WTTransactionCollectionViewCell.swift */; };
+		6965BE132B1E844600BFA7D6 /* WTBalanceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6965BE122B1E844600BFA7D6 /* WTBalanceCollectionViewCell.swift */; };
+		6965BE152B1EA7F100BFA7D6 /* WTNoResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6965BE142B1EA7F100BFA7D6 /* WTNoResultsView.swift */; };
+		697CCC2F2B1F929D002FF345 /* WTTransactionTableRowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697CCC2E2B1F929D002FF345 /* WTTransactionTableRowCell.swift */; };
+		697CCC312B1FA6EB002FF345 /* WTTransactionTableRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697CCC302B1FA6EB002FF345 /* WTTransactionTableRowViewModel.swift */; };
+		69AE292F2B2396E700F33DD5 /* WTDropDownListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AE292E2B2396E700F33DD5 /* WTDropDownListView.swift */; };
+		69AE29322B2486C900F33DD5 /* WTPostedTransactionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AE29312B2486C900F33DD5 /* WTPostedTransactionResponse.swift */; };
+		69F183D12B20BC5C00261660 /* WTLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F183D02B20BC5C00261660 /* WTLoader.swift */; };
+		69F183D42B20C1E500261660 /* WTTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F183D32B20C1E500261660 /* WTTransactionView.swift */; };
+		69F183D62B20C65700261660 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F183D52B20C65700261660 /* UIViewControllerExtension.swift */; };
+		69F183DA2B20D67500261660 /* WTFloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F183D92B20D67500261660 /* WTFloatingButton.swift */; };
+		69F183DC2B21087700261660 /* WTRefreshResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F183DB2B21087700261660 /* WTRefreshResponse.swift */; };
+		69F183DE2B2225DC00261660 /* WTTransactionViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F183DD2B2225DC00261660 /* WTTransactionViewViewController.swift */; };
+		69F183E02B2328FF00261660 /* WTCustomDateControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F183DF2B2328FF00261660 /* WTCustomDateControl.swift */; };
+		69F183E22B23333400261660 /* WTTextFieldSeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F183E12B23333400261660 /* WTTextFieldSeparatorView.swift */; };
+		69F183E52B238ED600261660 /* WTTransactionViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F183E42B238ED600261660 /* WTTransactionViewViewModel.swift */; };
+		69F64E062B14FE60006EC5F0 /* WTHomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F64E052B14FE60006EC5F0 /* WTHomePageView.swift */; };
+		AE3AFB4C954E76560337FF00 /* Pods_Wallet_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4286C4C35FB01754D62C16F3 /* Pods_Wallet_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4286C4C35FB01754D62C16F3 /* Pods_Wallet_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wallet_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6911FD032B25382100A6E840 /* SwiftyBeaverConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyBeaverConfig.swift; sourceTree = "<group>"; };
+		691F008D2B066D62004D2049 /* UIVIewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVIewExtension.swift; sourceTree = "<group>"; };
+		691FFBFF2B064B3A004D2049 /* WTButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTButton.swift; sourceTree = "<group>"; };
+		691FFC012B0653E6004D2049 /* WTLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTLogoView.swift; sourceTree = "<group>"; };
 		69592DBE2B0568C7001012B8 /* Wallet App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wallet App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69592DC12B0568C7001012B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69592DC32B0568C7001012B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		69592DC52B0568C7001012B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		69592DC82B0568C7001012B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		69592DCB2B0568C7001012B8 /* Wallet_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wallet_App.xcdatamodel; sourceTree = "<group>"; };
 		69592DCD2B0568C8001012B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69592DD02B0568C8001012B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69592DD22B0568C8001012B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69592DD82B056A13001012B8 /* WTLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTLoginViewController.swift; sourceTree = "<group>"; };
+		69592DE12B056B21001012B8 /* WTLoginUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTLoginUIView.swift; sourceTree = "<group>"; };
+		69611AB62B121FFF00F24E60 /* WTTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTTextField.swift; sourceTree = "<group>"; };
+		69611AB82B122FDA00F24E60 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		69611ABA2B12307700F24E60 /* WTRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTRequest.swift; sourceTree = "<group>"; };
+		69611ABC2B12326200F24E60 /* WTEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTEndpoint.swift; sourceTree = "<group>"; };
+		69611ABE2B1236CE00F24E60 /* WTLoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTLoginViewViewModel.swift; sourceTree = "<group>"; };
+		69611AC02B123CCB00F24E60 /* WTService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTService.swift; sourceTree = "<group>"; };
+		69611AC22B1243AF00F24E60 /* WTLoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTLoginResponse.swift; sourceTree = "<group>"; };
+		69611AC52B1244AB00F24E60 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		69611AC72B12C4A000F24E60 /* WTTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTTabBarController.swift; sourceTree = "<group>"; };
+		69611ACA2B13529B00F24E60 /* LocalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalState.swift; sourceTree = "<group>"; };
+		69611ACD2B13541A00F24E60 /* RootViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewControllerFactory.swift; sourceTree = "<group>"; };
+		69611ACF2B138EEC00F24E60 /* WTRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTRegisterViewController.swift; sourceTree = "<group>"; };
+		69611AD12B138F2800F24E60 /* WTRegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTRegisterView.swift; sourceTree = "<group>"; };
+		69611AD42B13AD6A00F24E60 /* RegisterResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterResponse.swift; sourceTree = "<group>"; };
+		69611AD62B13B36C00F24E60 /* WTRegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTRegisterViewViewModel.swift; sourceTree = "<group>"; };
+		69611ADA2B13FCCD00F24E60 /* WTHomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTHomePageViewController.swift; sourceTree = "<group>"; };
+		69611ADC2B13FD0500F24E60 /* WTStatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTStatisticsViewController.swift; sourceTree = "<group>"; };
+		69611ADE2B13FD2F00F24E60 /* WTExchangeRateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTExchangeRateViewController.swift; sourceTree = "<group>"; };
+		6965BE042B1E4E0B00BFA7D6 /* WTHomePageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTHomePageViewModel.swift; sourceTree = "<group>"; };
+		6965BE072B1E4EFC00BFA7D6 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		6965BE092B1E538E00BFA7D6 /* LoggedUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedUser.swift; sourceTree = "<group>"; };
+		6965BE0C2B1E604600BFA7D6 /* WTGetAllTransactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTGetAllTransactions.swift; sourceTree = "<group>"; };
+		6965BE0E2B1E711100BFA7D6 /* WTTransactionInfoCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTTransactionInfoCellViewModel.swift; sourceTree = "<group>"; };
+		6965BE102B1E843600BFA7D6 /* WTTransactionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTTransactionCollectionViewCell.swift; sourceTree = "<group>"; };
+		6965BE122B1E844600BFA7D6 /* WTBalanceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTBalanceCollectionViewCell.swift; sourceTree = "<group>"; };
+		6965BE142B1EA7F100BFA7D6 /* WTNoResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTNoResultsView.swift; sourceTree = "<group>"; };
+		697CCC2E2B1F929D002FF345 /* WTTransactionTableRowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTTransactionTableRowCell.swift; sourceTree = "<group>"; };
+		697CCC302B1FA6EB002FF345 /* WTTransactionTableRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTTransactionTableRowViewModel.swift; sourceTree = "<group>"; };
+		69AE292E2B2396E700F33DD5 /* WTDropDownListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTDropDownListView.swift; sourceTree = "<group>"; };
+		69AE29312B2486C900F33DD5 /* WTPostedTransactionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTPostedTransactionResponse.swift; sourceTree = "<group>"; };
+		69F183D02B20BC5C00261660 /* WTLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTLoader.swift; sourceTree = "<group>"; };
+		69F183D32B20C1E500261660 /* WTTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTTransactionView.swift; sourceTree = "<group>"; };
+		69F183D52B20C65700261660 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		69F183D92B20D67500261660 /* WTFloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTFloatingButton.swift; sourceTree = "<group>"; };
+		69F183DB2B21087700261660 /* WTRefreshResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTRefreshResponse.swift; sourceTree = "<group>"; };
+		69F183DD2B2225DC00261660 /* WTTransactionViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTTransactionViewViewController.swift; sourceTree = "<group>"; };
+		69F183DF2B2328FF00261660 /* WTCustomDateControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTCustomDateControl.swift; sourceTree = "<group>"; };
+		69F183E12B23333400261660 /* WTTextFieldSeparatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTTextFieldSeparatorView.swift; sourceTree = "<group>"; };
+		69F183E42B238ED600261660 /* WTTransactionViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTTransactionViewViewModel.swift; sourceTree = "<group>"; };
+		69F64E052B14FE60006EC5F0 /* WTHomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTHomePageView.swift; sourceTree = "<group>"; };
+		ECBB2FFC8EC6E04237CE758B /* Pods-Wallet App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wallet App.debug.xcconfig"; path = "Target Support Files/Pods-Wallet App/Pods-Wallet App.debug.xcconfig"; sourceTree = "<group>"; };
+		F26801F65854A3F6DD0BE493 /* Pods-Wallet App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wallet App.release.xcconfig"; path = "Target Support Files/Pods-Wallet App/Pods-Wallet App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +125,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE3AFB4C954E76560337FF00 /* Pods_Wallet_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11FD614790E31ADA18DAD008 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4286C4C35FB01754D62C16F3 /* Pods_Wallet_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6911FD022B25380E00A6E840 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6911FD032B25382100A6E840 /* SwiftyBeaverConfig.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		691F008C2B066D4C004D2049 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				691F008D2B066D62004D2049 /* UIVIewExtension.swift */,
+				69611ACA2B13529B00F24E60 /* LocalState.swift */,
+				69F183D52B20C65700261660 /* UIViewControllerExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		691FFBFE2B064B04004D2049 /* ReuseComponents */ = {
+			isa = PBXGroup;
+			children = (
+				691FFBFF2B064B3A004D2049 /* WTButton.swift */,
+				69F183DF2B2328FF00261660 /* WTCustomDateControl.swift */,
+				691FFC012B0653E6004D2049 /* WTLogoView.swift */,
+				69611AB62B121FFF00F24E60 /* WTTextField.swift */,
+				69F183D02B20BC5C00261660 /* WTLoader.swift */,
+				69F183D92B20D67500261660 /* WTFloatingButton.swift */,
+				69F183E12B23333400261660 /* WTTextFieldSeparatorView.swift */,
+				69AE292E2B2396E700F33DD5 /* WTDropDownListView.swift */,
+			);
+			path = ReuseComponents;
+			sourceTree = "<group>";
+		};
 		69592DB52B0568C7001012B8 = {
 			isa = PBXGroup;
 			children = (
 				69592DC02B0568C7001012B8 /* Wallet App */,
 				69592DBF2B0568C7001012B8 /* Products */,
+				CFA18237E15B801FA8F23F61 /* Pods */,
+				11FD614790E31ADA18DAD008 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +194,228 @@
 		69592DC02B0568C7001012B8 /* Wallet App */ = {
 			isa = PBXGroup;
 			children = (
-				69592DC12B0568C7001012B8 /* AppDelegate.swift */,
-				69592DC32B0568C7001012B8 /* SceneDelegate.swift */,
-				69592DC52B0568C7001012B8 /* ViewController.swift */,
-				69592DC72B0568C7001012B8 /* Main.storyboard */,
-				69592DCD2B0568C8001012B8 /* Assets.xcassets */,
-				69592DCF2B0568C8001012B8 /* LaunchScreen.storyboard */,
-				69592DD22B0568C8001012B8 /* Info.plist */,
+				691F008C2B066D4C004D2049 /* Extensions */,
+				69592DE02B056AD2001012B8 /* Resources */,
+				69592DDF2B056AC7001012B8 /* APIManager */,
+				69592DDE2B056AB5001012B8 /* Controllers */,
+				69592DDD2B056AAE001012B8 /* ViewModels */,
+				69592DDC2B056AA3001012B8 /* Views */,
+				69592DDB2B056A9C001012B8 /* Models */,
 				69592DCA2B0568C7001012B8 /* Wallet_App.xcdatamodeld */,
+				69592DD22B0568C8001012B8 /* Info.plist */,
 			);
 			path = "Wallet App";
+			sourceTree = "<group>";
+		};
+		69592DDB2B056A9C001012B8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				69AE29302B24859100F33DD5 /* Transactions */,
+				6965BE0B2B1E602A00BFA7D6 /* APIResponses */,
+				69611AC42B12448A00F24E60 /* User */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		69592DDC2B056AA3001012B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				69F183D22B20C1C800261660 /* Transaction */,
+				69F64E042B14FE45006EC5F0 /* Home */,
+				69F64E032B14FE3B006EC5F0 /* Auth */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		69592DDD2B056AAE001012B8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				69F183E32B238EAB00261660 /* Transaction */,
+				6965BE032B1E4DE100BFA7D6 /* Home */,
+				6965BE022B1E4DD200BFA7D6 /* Auth */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		69592DDE2B056AB5001012B8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				69611AD92B13FCA600F24E60 /* Core */,
+				69611AD82B13FC8D00F24E60 /* Auth */,
+				69611ACC2B1353CD00F24E60 /* RootControllerFactory */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		69592DDF2B056AC7001012B8 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				69611AC02B123CCB00F24E60 /* WTService.swift */,
+				69611ABA2B12307700F24E60 /* WTRequest.swift */,
+				69611ABC2B12326200F24E60 /* WTEndpoint.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		69592DE02B056AD2001012B8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6911FD022B25380E00A6E840 /* Utils */,
+				691FFBFE2B064B04004D2049 /* ReuseComponents */,
+				69592DC12B0568C7001012B8 /* AppDelegate.swift */,
+				69592DC32B0568C7001012B8 /* SceneDelegate.swift */,
+				69592DCD2B0568C8001012B8 /* Assets.xcassets */,
+				69592DCF2B0568C8001012B8 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		69611AC42B12448A00F24E60 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				6965BE062B1E4ED800BFA7D6 /* LoggedUser */,
+				69611AD32B13AD5500F24E60 /* Registration */,
+				69611AC92B1348F400F24E60 /* LogIn */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		69611AC92B1348F400F24E60 /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				69611AC52B1244AB00F24E60 /* UserData.swift */,
+				69611AB82B122FDA00F24E60 /* User.swift */,
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
+		69611ACC2B1353CD00F24E60 /* RootControllerFactory */ = {
+			isa = PBXGroup;
+			children = (
+				69611ACD2B13541A00F24E60 /* RootViewControllerFactory.swift */,
+			);
+			path = RootControllerFactory;
+			sourceTree = "<group>";
+		};
+		69611AD32B13AD5500F24E60 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				69611AD42B13AD6A00F24E60 /* RegisterResponse.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		69611AD82B13FC8D00F24E60 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				69592DD82B056A13001012B8 /* WTLoginViewController.swift */,
+				69611ACF2B138EEC00F24E60 /* WTRegisterViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		69611AD92B13FCA600F24E60 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				69611AC72B12C4A000F24E60 /* WTTabBarController.swift */,
+				69611ADA2B13FCCD00F24E60 /* WTHomePageViewController.swift */,
+				69611ADC2B13FD0500F24E60 /* WTStatisticsViewController.swift */,
+				69611ADE2B13FD2F00F24E60 /* WTExchangeRateViewController.swift */,
+				69F183DD2B2225DC00261660 /* WTTransactionViewViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		6965BE022B1E4DD200BFA7D6 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				69611ABE2B1236CE00F24E60 /* WTLoginViewViewModel.swift */,
+				69611AD62B13B36C00F24E60 /* WTRegisterViewViewModel.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		6965BE032B1E4DE100BFA7D6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6965BE042B1E4E0B00BFA7D6 /* WTHomePageViewModel.swift */,
+				6965BE0E2B1E711100BFA7D6 /* WTTransactionInfoCellViewModel.swift */,
+				697CCC302B1FA6EB002FF345 /* WTTransactionTableRowViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		6965BE062B1E4ED800BFA7D6 /* LoggedUser */ = {
+			isa = PBXGroup;
+			children = (
+				6965BE092B1E538E00BFA7D6 /* LoggedUser.swift */,
+			);
+			path = LoggedUser;
+			sourceTree = "<group>";
+		};
+		6965BE0B2B1E602A00BFA7D6 /* APIResponses */ = {
+			isa = PBXGroup;
+			children = (
+				69AE29312B2486C900F33DD5 /* WTPostedTransactionResponse.swift */,
+				6965BE0C2B1E604600BFA7D6 /* WTGetAllTransactions.swift */,
+				69611AC22B1243AF00F24E60 /* WTLoginResponse.swift */,
+				69F183DB2B21087700261660 /* WTRefreshResponse.swift */,
+			);
+			path = APIResponses;
+			sourceTree = "<group>";
+		};
+		69AE29302B24859100F33DD5 /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				6965BE072B1E4EFC00BFA7D6 /* Transaction.swift */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		69F183D22B20C1C800261660 /* Transaction */ = {
+			isa = PBXGroup;
+			children = (
+				69F183D32B20C1E500261660 /* WTTransactionView.swift */,
+			);
+			path = Transaction;
+			sourceTree = "<group>";
+		};
+		69F183E32B238EAB00261660 /* Transaction */ = {
+			isa = PBXGroup;
+			children = (
+				69F183E42B238ED600261660 /* WTTransactionViewViewModel.swift */,
+			);
+			path = Transaction;
+			sourceTree = "<group>";
+		};
+		69F64E032B14FE3B006EC5F0 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				69592DE12B056B21001012B8 /* WTLoginUIView.swift */,
+				69611AD12B138F2800F24E60 /* WTRegisterView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		69F64E042B14FE45006EC5F0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				69F64E052B14FE60006EC5F0 /* WTHomePageView.swift */,
+				6965BE102B1E843600BFA7D6 /* WTTransactionCollectionViewCell.swift */,
+				6965BE122B1E844600BFA7D6 /* WTBalanceCollectionViewCell.swift */,
+				6965BE142B1EA7F100BFA7D6 /* WTNoResultsView.swift */,
+				697CCC2E2B1F929D002FF345 /* WTTransactionTableRowCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CFA18237E15B801FA8F23F61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECBB2FFC8EC6E04237CE758B /* Pods-Wallet App.debug.xcconfig */,
+				F26801F65854A3F6DD0BE493 /* Pods-Wallet App.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +425,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69592DD52B0568C8001012B8 /* Build configuration list for PBXNativeTarget "Wallet App" */;
 			buildPhases = (
+				42145F526A009D6A66CAFF4C /* [CP] Check Pods Manifest.lock */,
 				69592DBA2B0568C7001012B8 /* Sources */,
 				69592DBB2B0568C7001012B8 /* Frameworks */,
 				69592DBC2B0568C7001012B8 /* Resources */,
+				0099C72F404DED5D398A057B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,35 +480,113 @@
 			files = (
 				69592DD12B0568C8001012B8 /* LaunchScreen.storyboard in Resources */,
 				69592DCE2B0568C8001012B8 /* Assets.xcassets in Resources */,
-				69592DC92B0568C7001012B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0099C72F404DED5D398A057B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wallet App/Pods-Wallet App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wallet App/Pods-Wallet App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wallet App/Pods-Wallet App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42145F526A009D6A66CAFF4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wallet App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		69592DBA2B0568C7001012B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69592DE22B056B21001012B8 /* WTLoginUIView.swift in Sources */,
+				69F183DA2B20D67500261660 /* WTFloatingButton.swift in Sources */,
+				69611AD52B13AD6A00F24E60 /* RegisterResponse.swift in Sources */,
+				69611ACB2B13529B00F24E60 /* LocalState.swift in Sources */,
+				69611AB72B121FFF00F24E60 /* WTTextField.swift in Sources */,
+				69F183DE2B2225DC00261660 /* WTTransactionViewViewController.swift in Sources */,
+				697CCC312B1FA6EB002FF345 /* WTTransactionTableRowViewModel.swift in Sources */,
+				69611AC62B1244AB00F24E60 /* UserData.swift in Sources */,
+				69611ABF2B1236CE00F24E60 /* WTLoginViewViewModel.swift in Sources */,
+				69F183D42B20C1E500261660 /* WTTransactionView.swift in Sources */,
+				69611AD22B138F2800F24E60 /* WTRegisterView.swift in Sources */,
+				69F183E02B2328FF00261660 /* WTCustomDateControl.swift in Sources */,
 				69592DCC2B0568C7001012B8 /* Wallet_App.xcdatamodeld in Sources */,
-				69592DC62B0568C7001012B8 /* ViewController.swift in Sources */,
+				69611ACE2B13541A00F24E60 /* RootViewControllerFactory.swift in Sources */,
+				69611ADB2B13FCCD00F24E60 /* WTHomePageViewController.swift in Sources */,
+				69F183D62B20C65700261660 /* UIViewControllerExtension.swift in Sources */,
+				69611ADD2B13FD0500F24E60 /* WTStatisticsViewController.swift in Sources */,
+				6965BE0A2B1E538E00BFA7D6 /* LoggedUser.swift in Sources */,
+				6965BE0F2B1E711100BFA7D6 /* WTTransactionInfoCellViewModel.swift in Sources */,
+				69611AC32B1243AF00F24E60 /* WTLoginResponse.swift in Sources */,
+				69F183DC2B21087700261660 /* WTRefreshResponse.swift in Sources */,
+				691FFC002B064B3A004D2049 /* WTButton.swift in Sources */,
 				69592DC22B0568C7001012B8 /* AppDelegate.swift in Sources */,
+				69AE29322B2486C900F33DD5 /* WTPostedTransactionResponse.swift in Sources */,
+				69611ADF2B13FD2F00F24E60 /* WTExchangeRateViewController.swift in Sources */,
+				69F64E062B14FE60006EC5F0 /* WTHomePageView.swift in Sources */,
+				6965BE0D2B1E604600BFA7D6 /* WTGetAllTransactions.swift in Sources */,
 				69592DC42B0568C7001012B8 /* SceneDelegate.swift in Sources */,
+				69611AD72B13B36C00F24E60 /* WTRegisterViewViewModel.swift in Sources */,
+				6965BE152B1EA7F100BFA7D6 /* WTNoResultsView.swift in Sources */,
+				691F008E2B066D62004D2049 /* UIVIewExtension.swift in Sources */,
+				69F183E52B238ED600261660 /* WTTransactionViewViewModel.swift in Sources */,
+				697CCC2F2B1F929D002FF345 /* WTTransactionTableRowCell.swift in Sources */,
+				69611AD02B138EEC00F24E60 /* WTRegisterViewController.swift in Sources */,
+				691FFC022B0653E6004D2049 /* WTLogoView.swift in Sources */,
+				6965BE112B1E843600BFA7D6 /* WTTransactionCollectionViewCell.swift in Sources */,
+				6965BE132B1E844600BFA7D6 /* WTBalanceCollectionViewCell.swift in Sources */,
+				69611AB92B122FDA00F24E60 /* User.swift in Sources */,
+				69611AC82B12C4A000F24E60 /* WTTabBarController.swift in Sources */,
+				69F183D12B20BC5C00261660 /* WTLoader.swift in Sources */,
+				69611AC12B123CCB00F24E60 /* WTService.swift in Sources */,
+				6965BE082B1E4EFC00BFA7D6 /* Transaction.swift in Sources */,
+				6965BE052B1E4E0B00BFA7D6 /* WTHomePageViewModel.swift in Sources */,
+				69611ABB2B12307700F24E60 /* WTRequest.swift in Sources */,
+				69AE292F2B2396E700F33DD5 /* WTDropDownListView.swift in Sources */,
+				69592DD92B056A13001012B8 /* WTLoginViewController.swift in Sources */,
+				69F183E22B23333400261660 /* WTTextFieldSeparatorView.swift in Sources */,
+				69611ABD2B12326200F24E60 /* WTEndpoint.swift in Sources */,
+				6911FD042B25382100A6E840 /* SwiftyBeaverConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		69592DC72B0568C7001012B8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				69592DC82B0568C7001012B8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		69592DCF2B0568C8001012B8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -207,7 +635,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -270,7 +698,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -291,6 +719,7 @@
 		};
 		69592DD62B0568C8001012B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECBB2FFC8EC6E04237CE758B /* Pods-Wallet App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,9 +730,9 @@
 				INFOPLIST_FILE = "Wallet App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,6 +748,7 @@
 		};
 		69592DD72B0568C8001012B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F26801F65854A3F6DD0BE493 /* Pods-Wallet App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -329,9 +759,9 @@
 				INFOPLIST_FILE = "Wallet App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

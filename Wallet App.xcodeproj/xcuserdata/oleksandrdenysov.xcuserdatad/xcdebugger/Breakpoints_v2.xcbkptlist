@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E4D992F5-60E5-4C15-93E8-C98ED537A255"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "162E1774-EAAD-4BC4-A90A-8F64D4E1470A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wallet App/ViewModels/WTLoginViewViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "executeLogInPostRequest(email:password:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "162E1774-EAAD-4BC4-A90A-8F64D4E1470A - a36f8595f8070f50"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wallet_App.WTLoginViewViewModel.executeLogInPostRequest(email: Swift.String, password: Swift.String, completion: (Swift.Result&lt;Wallet_App.LoginResponse, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Wallet App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oleksandrdenysov/Documents/Learning/Wallet%20App/Wallet%20App/ViewModels/WTLoginViewViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "420">
+               </Location>
+               <Location
+                  uuid = "162E1774-EAAD-4BC4-A90A-8F64D4E1470A - a36f8595f8070f50"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wallet_App.WTLoginViewViewModel.executeLogInPostRequest(email: Swift.String, password: Swift.String, completion: (Swift.Result&lt;Wallet_App.LoginResponse, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Wallet App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oleksandrdenysov/Documents/Learning/Wallet%20App/Wallet%20App/ViewModels/WTLoginViewViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "424">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "54E57A87-9B0D-438C-AB10-A27E1C3A17BD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wallet App/ViewModels/WTLoginViewViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "executeLogInPostRequest(email:password:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "54E57A87-9B0D-438C-AB10-A27E1C3A17BD - a36f8595f8070f71"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wallet_App.WTLoginViewViewModel.executeLogInPostRequest(email: Swift.String, password: Swift.String, completion: (Swift.Result&lt;Wallet_App.LoginResponse, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Wallet App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oleksandrdenysov/Documents/Learning/Wallet%20App/Wallet%20App/ViewModels/WTLoginViewViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "928">
+               </Location>
+               <Location
+                  uuid = "54E57A87-9B0D-438C-AB10-A27E1C3A17BD - a36f8595f8070f71"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wallet_App.WTLoginViewViewModel.executeLogInPostRequest(email: Swift.String, password: Swift.String, completion: (Swift.Result&lt;Wallet_App.LoginResponse, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Wallet App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oleksandrdenysov/Documents/Learning/Wallet%20App/Wallet%20App/ViewModels/WTLoginViewViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "912">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0829D197-63DE-41F9-B9E5-797400B14A0F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wallet App/APIManager/WTRequest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "init?(url:httpMethod:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0829D197-63DE-41F9-B9E5-797400B14A0F - 8e1de222c46a34bc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wallet_App.WTRequest.__allocating_init(url: Foundation.URL, httpMethod: Swift.String) -&gt; Swift.Optional&lt;Wallet_App.WTRequest&gt;"
+                  moduleName = "Wallet App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oleksandrdenysov/Documents/Learning/Wallet%20App/Wallet%20App/APIManager/WTRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "300">
+               </Location>
+               <Location
+                  uuid = "0829D197-63DE-41F9-B9E5-797400B14A0F - 8e1de222c46a34bc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wallet_App.WTRequest.__allocating_init(url: Foundation.URL, httpMethod: Swift.String) -&gt; Swift.Optional&lt;Wallet_App.WTRequest&gt;"
+                  moduleName = "Wallet App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oleksandrdenysov/Documents/Learning/Wallet%20App/Wallet%20App/APIManager/WTRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "292">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "448E78B3-CE75-4C23-8097-B1EA413285F4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wallet App/APIManager/WTRequest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "init?(url:httpMethod:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "448E78B3-CE75-4C23-8097-B1EA413285F4 - 8e1de222c46a3413"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wallet_App.WTRequest.__allocating_init(url: Foundation.URL, httpMethod: Swift.String) -&gt; Swift.Optional&lt;Wallet_App.WTRequest&gt;"
+                  moduleName = "Wallet App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oleksandrdenysov/Documents/Learning/Wallet%20App/Wallet%20App/APIManager/WTRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "444">
+               </Location>
+               <Location
+                  uuid = "448E78B3-CE75-4C23-8097-B1EA413285F4 - 8e1de222c46a3413"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wallet_App.WTRequest.__allocating_init(url: Foundation.URL, httpMethod: Swift.String) -&gt; Swift.Optional&lt;Wallet_App.WTRequest&gt;"
+                  moduleName = "Wallet App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oleksandrdenysov/Documents/Learning/Wallet%20App/Wallet%20App/APIManager/WTRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "436">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "24066BFF-BE6F-4F74-BF74-14CE6D82427A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wallet App/ViewModels/WTLoginViewViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "executeLogInPostRequest(email:password:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1F244388-E3D0-48A6-B430-2C2C2BA74655"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wallet App/Controllers/RootControllerFactory/RootViewControllerFactory.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "didLoggedIntoSystem(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1F244388-E3D0-48A6-B430-2C2C2BA74655 - 22bc89c96e0b6948"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wallet_App.RootViewControllerFactory.didLoggedIntoSystem(with: Wallet_App.LoginResponse) -&gt; ()"
+                  moduleName = "Wallet App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oleksandrdenysov/Documents/Learning/Wallet%20App/Wallet%20App/Controllers/RootControllerFactory/RootViewControllerFactory.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "248">
+               </Location>
+               <Location
+                  uuid = "1F244388-E3D0-48A6-B430-2C2C2BA74655 - 22bc89c96e0b696b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wallet_App.RootViewControllerFactory.didLoggedIntoSystem(with: Wallet_App.LoginResponse) -&gt; ()"
+                  moduleName = "Wallet App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oleksandrdenysov/Documents/Learning/Wallet%20App/Wallet%20App/Controllers/RootControllerFactory/RootViewControllerFactory.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "228">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EE6EBA54-5A4F-4702-BA9B-AAD7E6D1720C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wallet App/Controllers/WTLoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "didPerformLogin(receivedResponse:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8DFEFF77-D373-4F7D-B431-B10EE0C6E5F1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wallet App/Controllers/RootControllerFactory/RootViewControllerFactory.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "init()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6762EFF9-4475-4BC6-A555-44878B83536A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wallet App/Views/Home/WTHomePageView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "init(frame:viewModel:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "51C0E3C3-E3EB-4447-8852-93A218DC64A2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wallet App/Views/Home/WTHomePageView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "collectionView"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F7854180-B0CE-4019-B200-D6B2D9B2807C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wallet App/Views/Home/WTHomePageView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "didLoadTransactions()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E0347A16-E187-4E84-988D-38EA698B2044"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wallet App/ViewModels/Home/WTHomePageViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "userTransactions"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "70FDDC22-7289-4262-8EA4-A5754E498161"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wallet App/ViewModels/Home/WTHomePageViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "135"
+            endingLineNumber = "135"
+            landmarkName = "numberOfSections(in:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E24BE551-A5BA-45D9-8451-D5570E4C2300"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wallet App/ViewModels/Home/WTHomePageViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "collectionView(_:numberOfItemsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "486E0BC1-A2C1-4749-BAC1-62B285843357"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wallet App/ViewModels/Home/WTHomePageViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "328B3FFD-67FF-482C-8983-A24160E46B00"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wallet App/APIManager/WTService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "request(from:body:accessToken:refreshToken:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4A9A45D4-F614-482B-9DD4-FF6790F549D5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wallet App/APIManager/WTService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "refreshSession(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4A9A45D4-F614-482B-9DD4-FF6790F549D5 - f6418ee62c2dea8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Wallet_App.WTRefreshResponse, Swift.Error&gt;, Swift.Optional&lt;Swift.Int&gt;) -&gt; () in Wallet_App.WTService.refreshSession() -&gt; ()"
+                  moduleName = "Wallet App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oleksandrdenysov/Documents/Learning/Wallet%20App/Wallet%20App/APIManager/WTService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "119"
+                  endingLineNumber = "119"
+                  offsetFromSymbolStart = "336">
+               </Location>
+               <Location
+                  uuid = "4A9A45D4-F614-482B-9DD4-FF6790F549D5 - f6418ee62c2dea8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Wallet_App.WTRefreshResponse, Swift.Error&gt;, Swift.Optional&lt;Swift.Int&gt;) -&gt; () in Wallet_App.WTService.refreshSession() -&gt; ()"
+                  moduleName = "Wallet App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oleksandrdenysov/Documents/Learning/Wallet%20App/Wallet%20App/APIManager/WTService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "119"
+                  endingLineNumber = "119"
+                  offsetFromSymbolStart = "424">
+               </Location>
+               <Location
+                  uuid = "4A9A45D4-F614-482B-9DD4-FF6790F549D5 - 28d49848807792ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wallet_App.WTService.refreshSession() -&gt; ()"
+                  moduleName = "Wallet App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oleksandrdenysov/Documents/Learning/Wallet%20App/Wallet%20App/APIManager/WTService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "118"
+                  endingLineNumber = "118"
+                  offsetFromSymbolStart = "912">
+               </Location>
+               <Location
+                  uuid = "4A9A45D4-F614-482B-9DD4-FF6790F549D5 - dba6d054010b6274"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wallet_App.WTService.refreshSession(completion: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Wallet App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oleksandrdenysov/Documents/Learning/Wallet%20App/Wallet%20App/APIManager/WTService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "116"
+                  endingLineNumber = "116"
+                  offsetFromSymbolStart = "912">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6760AD7B-A5D2-4B51-A0B1-E8E2499DCC9C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wallet App/APIManager/WTService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "refreshSession(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6760AD7B-A5D2-4B51-A0B1-E8E2499DCC9C - f6418ee62c2de05"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Wallet_App.WTRefreshResponse, Swift.Error&gt;, Swift.Optional&lt;Swift.Int&gt;) -&gt; () in Wallet_App.WTService.refreshSession() -&gt; ()"
+                  moduleName = "Wallet App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oleksandrdenysov/Documents/Learning/Wallet%20App/Wallet%20App/APIManager/WTService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "752">
+               </Location>
+               <Location
+                  uuid = "6760AD7B-A5D2-4B51-A0B1-E8E2499DCC9C - f6418ee62c2de05"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Wallet_App.WTRefreshResponse, Swift.Error&gt;, Swift.Optional&lt;Swift.Int&gt;) -&gt; () in Wallet_App.WTService.refreshSession() -&gt; ()"
+                  moduleName = "Wallet App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oleksandrdenysov/Documents/Learning/Wallet%20App/Wallet%20App/APIManager/WTService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "544">
+               </Location>
+               <Location
+                  uuid = "6760AD7B-A5D2-4B51-A0B1-E8E2499DCC9C - 792ebec595cf4dfd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Wallet_App.WTRefreshResponse, Swift.Error&gt;, Swift.Optional&lt;Swift.Int&gt;) -&gt; () in Wallet_App.WTService.refreshSession(completion: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Wallet App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oleksandrdenysov/Documents/Learning/Wallet%20App/Wallet%20App/APIManager/WTService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "120"
+                  endingLineNumber = "120"
+                  offsetFromSymbolStart = "560">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "66392FF1-6D5A-4E9D-9779-98C4C91FB371"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wallet App/APIManager/WTService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "refreshSession(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "66392FF1-6D5A-4E9D-9779-98C4C91FB371 - f6418ee62c221c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Wallet_App.WTRefreshResponse, Swift.Error&gt;, Swift.Optional&lt;Swift.Int&gt;) -&gt; () in Wallet_App.WTService.refreshSession() -&gt; ()"
+                  moduleName = "Wallet App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oleksandrdenysov/Documents/Learning/Wallet%20App/Wallet%20App/APIManager/WTService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "124"
+                  endingLineNumber = "124"
+                  offsetFromSymbolStart = "1076">
+               </Location>
+               <Location
+                  uuid = "66392FF1-6D5A-4E9D-9779-98C4C91FB371 - f6418ee62c221c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Wallet_App.WTRefreshResponse, Swift.Error&gt;, Swift.Optional&lt;Swift.Int&gt;) -&gt; () in Wallet_App.WTService.refreshSession() -&gt; ()"
+                  moduleName = "Wallet App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oleksandrdenysov/Documents/Learning/Wallet%20App/Wallet%20App/APIManager/WTService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "124"
+                  endingLineNumber = "124"
+                  offsetFromSymbolStart = "768">
+               </Location>
+               <Location
+                  uuid = "66392FF1-6D5A-4E9D-9779-98C4C91FB371 - 792ebec595cf4d92"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Wallet_App.WTRefreshResponse, Swift.Error&gt;, Swift.Optional&lt;Swift.Int&gt;) -&gt; () in Wallet_App.WTService.refreshSession(completion: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Wallet App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oleksandrdenysov/Documents/Learning/Wallet%20App/Wallet%20App/APIManager/WTService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "820">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C91430D2-81B7-4386-A280-B881393D04F4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wallet App/ViewModels/Home/WTHomePageViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "fetchTransactions()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "21BBF8AF-3771-46D3-B4BB-BB5676006CF7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wallet App/ViewModels/Home/WTHomePageViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "fetchTransactions()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0B15856F-F4BA-4572-BA93-F9CE41B40591"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wallet App/Views/Transaction/WTTransactionView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "331"
+            endingLineNumber = "331"
+            landmarkName = "setupPickerShowing()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
