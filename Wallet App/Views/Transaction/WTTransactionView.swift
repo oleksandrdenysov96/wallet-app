@@ -85,8 +85,8 @@ class WTTransactionView: UIView {
      *
      */
 
-    private let categoriesDropDown: WTDropDownListView = {
-        return WTDropDownListView()
+    private let categoriesDropDown: WTDropDownCategoriesListView = {
+        return WTDropDownCategoriesListView()
     }()
 
 

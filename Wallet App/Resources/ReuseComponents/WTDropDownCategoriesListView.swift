@@ -8,7 +8,7 @@
 import UIKit
 import DropDown
 
-class WTDropDownListView: UIView {
+class WTDropDownCategoriesListView: UIView {
 
     private let dropDown: DropDown = {
         let menu =  DropDown()

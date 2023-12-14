@@ -10,5 +10,6 @@ import Foundation
 enum WTEndpoint: String {
     case auth = "auth"
     case transactions = "transactions"
+    case categories = "categories"
 
 }

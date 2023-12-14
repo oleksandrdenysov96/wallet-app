@@ -9,6 +9,10 @@ import UIKit
 
 class WTTabBarController: UITabBarController {
 
+    private let homeViewModel = WTHomePageViewModel()
+    private let statisticsViewModel = WTStatisticsViewViewModel()
+
+
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tabBar.backgroundColor = .white
@@ -33,8 +37,10 @@ class WTTabBarController: UITabBarController {
     }
 
     private func setUpTabs() {
-        let homePageVC = WTHomePageViewController()
-        let statisticsVC = WTStatisticsViewController()
+        let homePageVC = WTHomePageViewController(viewModel: homeViewModel)
+        performButchRequests()
+
+        let statisticsVC = WTStatisticsViewController(viewModel: statisticsViewModel)
         let exchangeRateVC = WTExchangeRateViewController()
         
         for controller in [homePageVC, statisticsVC, exchangeRateVC] {
@@ -58,5 +64,21 @@ class WTTabBarController: UITabBarController {
         
 
         self.setViewControllers(navigationControllers, animated: true)
+    }
+}
+
+
+extension WTTabBarController {
+
+    private func performButchRequests() {
+        let dispatchGroup = DispatchGroup()
+
+        dispatchGroup.enter()
+        homeViewModel.fetchTransactions() {
+            dispatchGroup.leave()
+        }
+        dispatchGroup.notify(queue: .main) {
+            self.statisticsViewModel.fetchStatistics()
+        }
     }
 }

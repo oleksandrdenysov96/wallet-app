@@ -302,8 +302,8 @@
             filePath = "Wallet App/Views/Home/WTHomePageView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "65"
-            endingLineNumber = "65"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
             landmarkName = "init(frame:viewModel:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -334,8 +334,8 @@
             filePath = "Wallet App/Views/Home/WTHomePageView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "156"
-            endingLineNumber = "156"
+            startingLineNumber = "152"
+            endingLineNumber = "152"
             landmarkName = "didLoadTransactions()"
             landmarkType = "7">
          </BreakpointContent>
@@ -366,8 +366,8 @@
             filePath = "Wallet App/ViewModels/Home/WTHomePageViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "134"
-            endingLineNumber = "134"
+            startingLineNumber = "135"
+            endingLineNumber = "135"
             landmarkName = "numberOfSections(in:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -382,8 +382,8 @@
             filePath = "Wallet App/ViewModels/Home/WTHomePageViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "142"
-            endingLineNumber = "142"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
             landmarkName = "collectionView(_:cellForItemAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -620,7 +620,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "40"
             endingLineNumber = "40"
-            landmarkName = "fetchTransactions()"
+            landmarkName = "fetchTransactions(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -634,9 +634,9 @@
             filePath = "Wallet App/ViewModels/Home/WTHomePageViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
-            landmarkName = "fetchTransactions()"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "fetchTransactions(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

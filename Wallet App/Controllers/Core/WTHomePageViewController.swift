@@ -7,13 +7,14 @@
 
 import UIKit
 
+
 class WTHomePageViewController: UIViewController {
 
     private let homePageView: WTHomePageView
     private let homePageViewModel: WTHomePageViewModel
 
-    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
-        self.homePageViewModel = .init()
+    init(viewModel: WTHomePageViewModel) {
+        self.homePageViewModel = viewModel
         
         self.homePageView = WTHomePageView(
             frame: .zero, viewModel: self.homePageViewModel

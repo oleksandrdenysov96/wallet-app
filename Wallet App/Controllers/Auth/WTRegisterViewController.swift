@@ -38,7 +38,7 @@ extension WTRegisterViewController: WTRegisterViewViewModelDelegate {
         self.navigationController?.popViewController(animated: true)
     }
     
-    func didPerformRegistration(receivedResponse: RegisterResponse) {
+    func didPerformRegistration(receivedResponse: WTRegisterResponse) {
         let alert = UIAlertController(
             title: "Registration successfull!",
             message: "You have been successfully registered",

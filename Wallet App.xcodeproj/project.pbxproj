@@ -31,7 +31,7 @@
 		69611ACE2B13541A00F24E60 /* RootViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69611ACD2B13541A00F24E60 /* RootViewControllerFactory.swift */; };
 		69611AD02B138EEC00F24E60 /* WTRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69611ACF2B138EEC00F24E60 /* WTRegisterViewController.swift */; };
 		69611AD22B138F2800F24E60 /* WTRegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69611AD12B138F2800F24E60 /* WTRegisterView.swift */; };
-		69611AD52B13AD6A00F24E60 /* RegisterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69611AD42B13AD6A00F24E60 /* RegisterResponse.swift */; };
+		69611AD52B13AD6A00F24E60 /* WTRegisterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69611AD42B13AD6A00F24E60 /* WTRegisterResponse.swift */; };
 		69611AD72B13B36C00F24E60 /* WTRegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69611AD62B13B36C00F24E60 /* WTRegisterViewViewModel.swift */; };
 		69611ADB2B13FCCD00F24E60 /* WTHomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69611ADA2B13FCCD00F24E60 /* WTHomePageViewController.swift */; };
 		69611ADD2B13FD0500F24E60 /* WTStatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69611ADC2B13FD0500F24E60 /* WTStatisticsViewController.swift */; };
@@ -46,7 +46,23 @@
 		6965BE152B1EA7F100BFA7D6 /* WTNoResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6965BE142B1EA7F100BFA7D6 /* WTNoResultsView.swift */; };
 		697CCC2F2B1F929D002FF345 /* WTTransactionTableRowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697CCC2E2B1F929D002FF345 /* WTTransactionTableRowCell.swift */; };
 		697CCC312B1FA6EB002FF345 /* WTTransactionTableRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697CCC302B1FA6EB002FF345 /* WTTransactionTableRowViewModel.swift */; };
-		69AE292F2B2396E700F33DD5 /* WTDropDownListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AE292E2B2396E700F33DD5 /* WTDropDownListView.swift */; };
+		698BAD5D2B26766E00C7F811 /* WTDonutChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698BAD5C2B26766E00C7F811 /* WTDonutChartView.swift */; };
+		698BAD602B27168A00C7F811 /* WTStatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698BAD5F2B27168A00C7F811 /* WTStatisticView.swift */; };
+		698BAD622B275A9700C7F811 /* WTFilterDateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698BAD612B275A9700C7F811 /* WTFilterDateButton.swift */; };
+		698BAD652B27946E00C7F811 /* WTStatisticsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698BAD642B27946E00C7F811 /* WTStatisticsViewViewModel.swift */; };
+		698BAD672B27961E00C7F811 /* WTGetStatistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698BAD662B27961E00C7F811 /* WTGetStatistics.swift */; };
+		698BAD692B27969500C7F811 /* TotalTypeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698BAD682B27969500C7F811 /* TotalTypeData.swift */; };
+		698BAD6B2B27A60000C7F811 /* WTChartViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698BAD6A2B27A60000C7F811 /* WTChartViewCellViewModel.swift */; };
+		698BAD6D2B27DE1300C7F811 /* WTDateSectionCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698BAD6C2B27DE1300C7F811 /* WTDateSectionCellViewModel.swift */; };
+		698BAD6F2B27DE4500C7F811 /* WTCategoriesDetailsCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698BAD6E2B27DE4500C7F811 /* WTCategoriesDetailsCellViewModel.swift */; };
+		698BAD712B27DF0300C7F811 /* WTChartsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698BAD702B27DF0300C7F811 /* WTChartsCollectionViewCell.swift */; };
+		698BAD732B27DF1400C7F811 /* WTDateSectionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698BAD722B27DF1400C7F811 /* WTDateSectionCollectionViewCell.swift */; };
+		698BAD752B27DF3100C7F811 /* WTCategoriesDetailsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698BAD742B27DF3100C7F811 /* WTCategoriesDetailsCollectionViewCell.swift */; };
+		698BAD772B288E2800C7F811 /* WTDateFilterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698BAD762B288E2800C7F811 /* WTDateFilterListView.swift */; };
+		698BAD792B28A88B00C7F811 /* WTStatisticsDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698BAD782B28A88A00C7F811 /* WTStatisticsDetailsTableViewCell.swift */; };
+		698BAD7E2B2A421F00C7F811 /* WTTableHeaderVieww.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698BAD7D2B2A421F00C7F811 /* WTTableHeaderVieww.swift */; };
+		698BAD802B2B1BBA00C7F811 /* WTTableFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698BAD7F2B2B1BBA00C7F811 /* WTTableFooterView.swift */; };
+		69AE292F2B2396E700F33DD5 /* WTDropDownCategoriesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AE292E2B2396E700F33DD5 /* WTDropDownCategoriesListView.swift */; };
 		69AE29322B2486C900F33DD5 /* WTPostedTransactionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AE29312B2486C900F33DD5 /* WTPostedTransactionResponse.swift */; };
 		69F183D12B20BC5C00261660 /* WTLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F183D02B20BC5C00261660 /* WTLoader.swift */; };
 		69F183D42B20C1E500261660 /* WTTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F183D32B20C1E500261660 /* WTTransactionView.swift */; };
@@ -89,7 +105,7 @@
 		69611ACD2B13541A00F24E60 /* RootViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewControllerFactory.swift; sourceTree = "<group>"; };
 		69611ACF2B138EEC00F24E60 /* WTRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTRegisterViewController.swift; sourceTree = "<group>"; };
 		69611AD12B138F2800F24E60 /* WTRegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTRegisterView.swift; sourceTree = "<group>"; };
-		69611AD42B13AD6A00F24E60 /* RegisterResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterResponse.swift; sourceTree = "<group>"; };
+		69611AD42B13AD6A00F24E60 /* WTRegisterResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTRegisterResponse.swift; sourceTree = "<group>"; };
 		69611AD62B13B36C00F24E60 /* WTRegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTRegisterViewViewModel.swift; sourceTree = "<group>"; };
 		69611ADA2B13FCCD00F24E60 /* WTHomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTHomePageViewController.swift; sourceTree = "<group>"; };
 		69611ADC2B13FD0500F24E60 /* WTStatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTStatisticsViewController.swift; sourceTree = "<group>"; };
@@ -104,7 +120,23 @@
 		6965BE142B1EA7F100BFA7D6 /* WTNoResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTNoResultsView.swift; sourceTree = "<group>"; };
 		697CCC2E2B1F929D002FF345 /* WTTransactionTableRowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTTransactionTableRowCell.swift; sourceTree = "<group>"; };
 		697CCC302B1FA6EB002FF345 /* WTTransactionTableRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTTransactionTableRowViewModel.swift; sourceTree = "<group>"; };
-		69AE292E2B2396E700F33DD5 /* WTDropDownListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTDropDownListView.swift; sourceTree = "<group>"; };
+		698BAD5C2B26766E00C7F811 /* WTDonutChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTDonutChartView.swift; sourceTree = "<group>"; };
+		698BAD5F2B27168A00C7F811 /* WTStatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTStatisticView.swift; sourceTree = "<group>"; };
+		698BAD612B275A9700C7F811 /* WTFilterDateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTFilterDateButton.swift; sourceTree = "<group>"; };
+		698BAD642B27946E00C7F811 /* WTStatisticsViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTStatisticsViewViewModel.swift; sourceTree = "<group>"; };
+		698BAD662B27961E00C7F811 /* WTGetStatistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTGetStatistics.swift; sourceTree = "<group>"; };
+		698BAD682B27969500C7F811 /* TotalTypeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalTypeData.swift; sourceTree = "<group>"; };
+		698BAD6A2B27A60000C7F811 /* WTChartViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTChartViewCellViewModel.swift; sourceTree = "<group>"; };
+		698BAD6C2B27DE1300C7F811 /* WTDateSectionCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTDateSectionCellViewModel.swift; sourceTree = "<group>"; };
+		698BAD6E2B27DE4500C7F811 /* WTCategoriesDetailsCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTCategoriesDetailsCellViewModel.swift; sourceTree = "<group>"; };
+		698BAD702B27DF0300C7F811 /* WTChartsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTChartsCollectionViewCell.swift; sourceTree = "<group>"; };
+		698BAD722B27DF1400C7F811 /* WTDateSectionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTDateSectionCollectionViewCell.swift; sourceTree = "<group>"; };
+		698BAD742B27DF3100C7F811 /* WTCategoriesDetailsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTCategoriesDetailsCollectionViewCell.swift; sourceTree = "<group>"; };
+		698BAD762B288E2800C7F811 /* WTDateFilterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTDateFilterListView.swift; sourceTree = "<group>"; };
+		698BAD782B28A88A00C7F811 /* WTStatisticsDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTStatisticsDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		698BAD7D2B2A421F00C7F811 /* WTTableHeaderVieww.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTTableHeaderVieww.swift; sourceTree = "<group>"; };
+		698BAD7F2B2B1BBA00C7F811 /* WTTableFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTTableFooterView.swift; sourceTree = "<group>"; };
+		69AE292E2B2396E700F33DD5 /* WTDropDownCategoriesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTDropDownCategoriesListView.swift; sourceTree = "<group>"; };
 		69AE29312B2486C900F33DD5 /* WTPostedTransactionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTPostedTransactionResponse.swift; sourceTree = "<group>"; };
 		69F183D02B20BC5C00261660 /* WTLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTLoader.swift; sourceTree = "<group>"; };
 		69F183D32B20C1E500261660 /* WTTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTTransactionView.swift; sourceTree = "<group>"; };
@@ -168,7 +200,9 @@
 				69F183D02B20BC5C00261660 /* WTLoader.swift */,
 				69F183D92B20D67500261660 /* WTFloatingButton.swift */,
 				69F183E12B23333400261660 /* WTTextFieldSeparatorView.swift */,
-				69AE292E2B2396E700F33DD5 /* WTDropDownListView.swift */,
+				69AE292E2B2396E700F33DD5 /* WTDropDownCategoriesListView.swift */,
+				698BAD612B275A9700C7F811 /* WTFilterDateButton.swift */,
+				698BAD762B288E2800C7F811 /* WTDateFilterListView.swift */,
 			);
 			path = ReuseComponents;
 			sourceTree = "<group>";
@@ -210,9 +244,8 @@
 		69592DDB2B056A9C001012B8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				69AE29302B24859100F33DD5 /* Transactions */,
+				69AE29302B24859100F33DD5 /* Entities */,
 				6965BE0B2B1E602A00BFA7D6 /* APIResponses */,
-				69611AC42B12448A00F24E60 /* User */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -220,6 +253,7 @@
 		69592DDC2B056AA3001012B8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				698BAD5E2B27167300C7F811 /* Statistics */,
 				69F183D22B20C1C800261660 /* Transaction */,
 				69F64E042B14FE45006EC5F0 /* Home */,
 				69F64E032B14FE3B006EC5F0 /* Auth */,
@@ -230,6 +264,7 @@
 		69592DDD2B056AAE001012B8 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				698BAD632B27945000C7F811 /* Statistics */,
 				69F183E32B238EAB00261660 /* Transaction */,
 				6965BE032B1E4DE100BFA7D6 /* Home */,
 				6965BE022B1E4DD200BFA7D6 /* Auth */,
@@ -273,8 +308,6 @@
 		69611AC42B12448A00F24E60 /* User */ = {
 			isa = PBXGroup;
 			children = (
-				6965BE062B1E4ED800BFA7D6 /* LoggedUser */,
-				69611AD32B13AD5500F24E60 /* Registration */,
 				69611AC92B1348F400F24E60 /* LogIn */,
 			);
 			path = User;
@@ -295,14 +328,6 @@
 				69611ACD2B13541A00F24E60 /* RootViewControllerFactory.swift */,
 			);
 			path = RootControllerFactory;
-			sourceTree = "<group>";
-		};
-		69611AD32B13AD5500F24E60 /* Registration */ = {
-			isa = PBXGroup;
-			children = (
-				69611AD42B13AD6A00F24E60 /* RegisterResponse.swift */,
-			);
-			path = Registration;
 			sourceTree = "<group>";
 		};
 		69611AD82B13FC8D00F24E60 /* Auth */ = {
@@ -356,20 +381,59 @@
 		6965BE0B2B1E602A00BFA7D6 /* APIResponses */ = {
 			isa = PBXGroup;
 			children = (
+				698BAD662B27961E00C7F811 /* WTGetStatistics.swift */,
 				69AE29312B2486C900F33DD5 /* WTPostedTransactionResponse.swift */,
 				6965BE0C2B1E604600BFA7D6 /* WTGetAllTransactions.swift */,
 				69611AC22B1243AF00F24E60 /* WTLoginResponse.swift */,
 				69F183DB2B21087700261660 /* WTRefreshResponse.swift */,
+				69611AD42B13AD6A00F24E60 /* WTRegisterResponse.swift */,
 			);
 			path = APIResponses;
 			sourceTree = "<group>";
 		};
-		69AE29302B24859100F33DD5 /* Transactions */ = {
+		698BAD5E2B27167300C7F811 /* Statistics */ = {
 			isa = PBXGroup;
 			children = (
-				6965BE072B1E4EFC00BFA7D6 /* Transaction.swift */,
+				698BAD5F2B27168A00C7F811 /* WTStatisticView.swift */,
+				698BAD5C2B26766E00C7F811 /* WTDonutChartView.swift */,
+				698BAD702B27DF0300C7F811 /* WTChartsCollectionViewCell.swift */,
+				698BAD722B27DF1400C7F811 /* WTDateSectionCollectionViewCell.swift */,
+				698BAD7A2B2A3DF200C7F811 /* Categories */,
 			);
-			path = Transactions;
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		698BAD632B27945000C7F811 /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				698BAD642B27946E00C7F811 /* WTStatisticsViewViewModel.swift */,
+				698BAD6A2B27A60000C7F811 /* WTChartViewCellViewModel.swift */,
+				698BAD6C2B27DE1300C7F811 /* WTDateSectionCellViewModel.swift */,
+				698BAD6E2B27DE4500C7F811 /* WTCategoriesDetailsCellViewModel.swift */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		698BAD7A2B2A3DF200C7F811 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				698BAD742B27DF3100C7F811 /* WTCategoriesDetailsCollectionViewCell.swift */,
+				698BAD782B28A88A00C7F811 /* WTStatisticsDetailsTableViewCell.swift */,
+				698BAD7D2B2A421F00C7F811 /* WTTableHeaderVieww.swift */,
+				698BAD7F2B2B1BBA00C7F811 /* WTTableFooterView.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		69AE29302B24859100F33DD5 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				69611AC42B12448A00F24E60 /* User */,
+				6965BE062B1E4ED800BFA7D6 /* LoggedUser */,
+				6965BE072B1E4EFC00BFA7D6 /* Transaction.swift */,
+				698BAD682B27969500C7F811 /* TotalTypeData.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 		69F183D22B20C1C800261660 /* Transaction */ = {
@@ -534,26 +598,37 @@
 			files = (
 				69592DE22B056B21001012B8 /* WTLoginUIView.swift in Sources */,
 				69F183DA2B20D67500261660 /* WTFloatingButton.swift in Sources */,
-				69611AD52B13AD6A00F24E60 /* RegisterResponse.swift in Sources */,
+				69611AD52B13AD6A00F24E60 /* WTRegisterResponse.swift in Sources */,
+				698BAD772B288E2800C7F811 /* WTDateFilterListView.swift in Sources */,
 				69611ACB2B13529B00F24E60 /* LocalState.swift in Sources */,
+				698BAD692B27969500C7F811 /* TotalTypeData.swift in Sources */,
+				698BAD6D2B27DE1300C7F811 /* WTDateSectionCellViewModel.swift in Sources */,
 				69611AB72B121FFF00F24E60 /* WTTextField.swift in Sources */,
+				698BAD6F2B27DE4500C7F811 /* WTCategoriesDetailsCellViewModel.swift in Sources */,
 				69F183DE2B2225DC00261660 /* WTTransactionViewViewController.swift in Sources */,
 				697CCC312B1FA6EB002FF345 /* WTTransactionTableRowViewModel.swift in Sources */,
 				69611AC62B1244AB00F24E60 /* UserData.swift in Sources */,
 				69611ABF2B1236CE00F24E60 /* WTLoginViewViewModel.swift in Sources */,
 				69F183D42B20C1E500261660 /* WTTransactionView.swift in Sources */,
 				69611AD22B138F2800F24E60 /* WTRegisterView.swift in Sources */,
+				698BAD752B27DF3100C7F811 /* WTCategoriesDetailsCollectionViewCell.swift in Sources */,
 				69F183E02B2328FF00261660 /* WTCustomDateControl.swift in Sources */,
 				69592DCC2B0568C7001012B8 /* Wallet_App.xcdatamodeld in Sources */,
 				69611ACE2B13541A00F24E60 /* RootViewControllerFactory.swift in Sources */,
 				69611ADB2B13FCCD00F24E60 /* WTHomePageViewController.swift in Sources */,
 				69F183D62B20C65700261660 /* UIViewControllerExtension.swift in Sources */,
+				698BAD7E2B2A421F00C7F811 /* WTTableHeaderVieww.swift in Sources */,
 				69611ADD2B13FD0500F24E60 /* WTStatisticsViewController.swift in Sources */,
+				698BAD6B2B27A60000C7F811 /* WTChartViewCellViewModel.swift in Sources */,
+				698BAD732B27DF1400C7F811 /* WTDateSectionCollectionViewCell.swift in Sources */,
+				698BAD712B27DF0300C7F811 /* WTChartsCollectionViewCell.swift in Sources */,
 				6965BE0A2B1E538E00BFA7D6 /* LoggedUser.swift in Sources */,
 				6965BE0F2B1E711100BFA7D6 /* WTTransactionInfoCellViewModel.swift in Sources */,
 				69611AC32B1243AF00F24E60 /* WTLoginResponse.swift in Sources */,
 				69F183DC2B21087700261660 /* WTRefreshResponse.swift in Sources */,
 				691FFC002B064B3A004D2049 /* WTButton.swift in Sources */,
+				698BAD802B2B1BBA00C7F811 /* WTTableFooterView.swift in Sources */,
+				698BAD792B28A88B00C7F811 /* WTStatisticsDetailsTableViewCell.swift in Sources */,
 				69592DC22B0568C7001012B8 /* AppDelegate.swift in Sources */,
 				69AE29322B2486C900F33DD5 /* WTPostedTransactionResponse.swift in Sources */,
 				69611ADF2B13FD2F00F24E60 /* WTExchangeRateViewController.swift in Sources */,
@@ -568,15 +643,20 @@
 				69611AD02B138EEC00F24E60 /* WTRegisterViewController.swift in Sources */,
 				691FFC022B0653E6004D2049 /* WTLogoView.swift in Sources */,
 				6965BE112B1E843600BFA7D6 /* WTTransactionCollectionViewCell.swift in Sources */,
+				698BAD672B27961E00C7F811 /* WTGetStatistics.swift in Sources */,
 				6965BE132B1E844600BFA7D6 /* WTBalanceCollectionViewCell.swift in Sources */,
 				69611AB92B122FDA00F24E60 /* User.swift in Sources */,
+				698BAD5D2B26766E00C7F811 /* WTDonutChartView.swift in Sources */,
 				69611AC82B12C4A000F24E60 /* WTTabBarController.swift in Sources */,
+				698BAD652B27946E00C7F811 /* WTStatisticsViewViewModel.swift in Sources */,
 				69F183D12B20BC5C00261660 /* WTLoader.swift in Sources */,
 				69611AC12B123CCB00F24E60 /* WTService.swift in Sources */,
+				698BAD622B275A9700C7F811 /* WTFilterDateButton.swift in Sources */,
 				6965BE082B1E4EFC00BFA7D6 /* Transaction.swift in Sources */,
 				6965BE052B1E4E0B00BFA7D6 /* WTHomePageViewModel.swift in Sources */,
+				698BAD602B27168A00C7F811 /* WTStatisticView.swift in Sources */,
 				69611ABB2B12307700F24E60 /* WTRequest.swift in Sources */,
-				69AE292F2B2396E700F33DD5 /* WTDropDownListView.swift in Sources */,
+				69AE292F2B2396E700F33DD5 /* WTDropDownCategoriesListView.swift in Sources */,
 				69592DD92B056A13001012B8 /* WTLoginViewController.swift in Sources */,
 				69F183E22B23333400261660 /* WTTextFieldSeparatorView.swift in Sources */,
 				69611ABD2B12326200F24E60 /* WTEndpoint.swift in Sources */,

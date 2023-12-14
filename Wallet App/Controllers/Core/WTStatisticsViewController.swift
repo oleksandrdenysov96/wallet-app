@@ -6,25 +6,38 @@
 //
 
 import UIKit
+import SwiftUI
 
-class WTStatisticsViewController: UIViewController {
+final class WTStatisticsViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        view.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 0.95)
+    private let statisticsViewModel: WTStatisticsViewViewModel
+    private let statisticsView: WTStatisticView
 
-        // Do any additional setup after loading the view.
+    init(viewModel: WTStatisticsViewViewModel) {
+        self.statisticsViewModel = viewModel
+        self.statisticsView = WTStatisticView(
+            frame: .zero, viewModel: self.statisticsViewModel
+        )
+        super.init(nibName: nil, bundle: nil)
+        self.setupLogo()
+        self.setupNavBar()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
-    */
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        view.addSubview(statisticsView)
+        setupConstraints()
+    }
 
+    private func setupConstraints() {
+        NSLayoutConstraint.activate([
+            statisticsView.topAnchor.constraint(equalTo: view.topAnchor),
+            statisticsView.leftAnchor.constraint(equalTo: view.leftAnchor),
+            statisticsView.rightAnchor.constraint(equalTo: view.rightAnchor),
+            statisticsView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
+        ])
+    }
 }

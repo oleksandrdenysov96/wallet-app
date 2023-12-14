@@ -53,13 +53,12 @@ class WTHomePageView: UIView {
         self.viewModel = viewModel
         super.init(frame: frame)
         translatesAutoresizingMaskIntoConstraints = false
-        backgroundColor = UIColor(
-            red: 238/255, green: 238/255, blue: 238/255, alpha: 1
-        )
+        backgroundColor = .wtMainBackgroundColor
+        
         collectionView.delegate = viewModel
         collectionView.dataSource = viewModel
         viewModel.delegate = self
-        viewModel.fetchTransactions()
+//        viewModel.fetchTransactions()
         addSubviews(loader, noResultsView, collectionView, floatingButton)
         setupUI()
         loader.startLoader()
@@ -85,8 +84,6 @@ class WTHomePageView: UIView {
         ])
 
         NSLayoutConstraint.activate([
-            loader.heightAnchor.constraint(equalToConstant: 100),
-            loader.widthAnchor.constraint(equalToConstant: 100),
             loader.centerXAnchor.constraint(equalTo: centerXAnchor),
             loader.centerYAnchor.constraint(equalTo: centerYAnchor),
             
@@ -126,7 +123,6 @@ extension WTHomePageView: WTHomePageViewModelDelegate {
     }
     
     func didLoadTransactions() {
-        
         guard let isEmptyModels = viewModel.userTransactions?.isEmpty else {
             SwiftyBeaverConfig.shared.logError("Wrong handling empty models state")
             return
@@ -173,9 +169,6 @@ extension WTHomePageView: WTHomePageViewModelDelegate {
             else {
                 self?.collectionView.reloadData()
                 self?.delegate?.shouldDismissTransactionView()
-//                self?.collectionView.performBatchUpdates {
-//                    self?.collectionView.insertItems(at: index)
-//                }
             }
         }
     }

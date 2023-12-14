@@ -49,7 +49,6 @@ class WTButton: UIButton {
             layer.borderColor = UIColor.wtMainBlue.cgColor
             layer.borderWidth = 1.3
         }
-
     }
     
     private func setupDefaults() {

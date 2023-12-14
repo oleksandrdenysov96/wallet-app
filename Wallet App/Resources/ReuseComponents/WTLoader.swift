@@ -18,6 +18,11 @@ class WTLoader: UIActivityIndicatorView {
         hidesWhenStopped = true
         layer.opacity = 0
 
+        NSLayoutConstraint.activate([
+            heightAnchor.constraint(equalToConstant: 100),
+            widthAnchor.constraint(equalToConstant: 100),
+        ])
+
     }
     
     required init(coder: NSCoder) {

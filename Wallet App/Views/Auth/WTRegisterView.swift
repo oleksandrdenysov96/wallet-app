@@ -217,4 +217,8 @@ extension WTRegisterView: UITextFieldDelegate {
         textField.resignFirstResponder()
         return true
     }
+
+    func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
+        return true
+    }
 }

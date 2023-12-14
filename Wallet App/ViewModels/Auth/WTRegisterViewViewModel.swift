@@ -8,7 +8,7 @@
 import Foundation
 
 protocol WTRegisterViewViewModelDelegate: AnyObject {
-    func didPerformRegistration(receivedResponse: RegisterResponse)
+    func didPerformRegistration(receivedResponse: WTRegisterResponse)
     
     func enteredWrongCreds(errTitle: String, errMessage: String)
     func backToLoginSelected()
@@ -18,10 +18,10 @@ final class WTRegisterViewViewModel {
     
     public weak var delegate: WTRegisterViewViewModelDelegate?
         
-    private var registerResponseModel: RegisterResponse?
+    private var registerResponseModel: WTRegisterResponse?
     
     private func executeRegisterPostRequest(email: String, password: String, username: String,
-                                            completion: @escaping (Result<RegisterResponse, Error>, Int?) -> Void) {
+                                            completion: @escaping (Result<WTRegisterResponse, Error>, Int?) -> Void) {
 
         let jsonBody: [String: Any] = [
             "name": username,
@@ -37,7 +37,7 @@ final class WTRegisterViewViewModel {
         }
         
         WTService.shared.executeRequest(request, body: body,
-                                            expected: RegisterResponse.self, completion: completion)
+                                            expected: WTRegisterResponse.self, completion: completion)
     }
 }
 

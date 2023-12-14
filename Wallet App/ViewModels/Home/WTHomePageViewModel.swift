@@ -34,7 +34,7 @@ class WTHomePageViewModel: NSObject {
 
     // MARK: API CALLS
 
-    public func fetchTransactions() {
+    public func fetchTransactions(_ completion: @escaping () -> Void) {
         let request = WTRequest(endpoint: .transactions)
 
         WTService.shared.executeRequest(request, expected: WTGetAllTransactions.self) { [weak self] result, statusCode in
@@ -44,12 +44,13 @@ class WTHomePageViewModel: NSObject {
             case .success(let viewModel):
                 self.userTransactions = viewModel.info.reversed()
                 self.delegate?.didLoadTransactions()
-                
+                completion()
+
             case .failure(let error):
                 if statusCode == 401 {
                     WTService.shared.refreshSession { isRefreshed in
                         if isRefreshed {
-                            self.fetchTransactions()
+                            self.fetchTransactions(completion)
                         }
                         else {
                             SwiftyBeaverConfig.shared.logError("Unable to refresh sid")
